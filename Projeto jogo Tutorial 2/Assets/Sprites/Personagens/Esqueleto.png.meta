@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: d7ccd2388862b9849bf6b8d7b610503d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Esqueleto_0
+    21300002: Esqueleto_1
+    21300004: Esqueleto_2
+    21300006: Esqueleto_3
+    21300008: Esqueleto_4
+    21300010: Esqueleto_5
+    21300012: Esqueleto_6
+    21300014: Esqueleto_7
+    21300016: Esqueleto_8
+    21300018: Esqueleto_9
+    21300020: Esqueleto_10
+    21300022: Esqueleto_11
+    21300024: Esqueleto_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Esqueleto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 53
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Esqueleto_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 59
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Esqueleto_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Esqueleto_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 51
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Esqueleto_4
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 42
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Esqueleto_5
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 42
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Esqueleto_6
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 0
+        width: 38
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Esqueleto_7
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 49
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Esqueleto_8
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 0
+        width: 41
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Esqueleto_9
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 43
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Esqueleto_10
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 0
+        width: 47
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Esqueleto_11
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 0
+        width: 42
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Esqueleto_12
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 0
+        width: 37
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

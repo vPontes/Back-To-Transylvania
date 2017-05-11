@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 59a2cccbc865d5247a39e54766f18cb4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bolas de Fogo_0
+    21300002: Bolas de Fogo_1
+    21300004: Bolas de Fogo_2
+    21300006: Bolas de Fogo_3
+    21300008: Bolas de Fogo_4
+    21300010: Bolas de Fogo_5
+    21300012: Bolas de Fogo_6
+    21300014: Bolas de Fogo_7
+    21300016: Bolas de Fogo_8
+    21300018: Bolas de Fogo_9
+    21300020: Bolas de Fogo_10
+    21300022: Bolas de Fogo_11
+    21300024: Bolas de Fogo_12
+    21300026: Bolas de Fogo_13
+    21300028: Bolas de Fogo_14
+    21300030: Bolas de Fogo_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bolas de Fogo_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 227
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 226
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 227
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_3
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 228
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 69
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 151
+        width: 73
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 149
+        width: 69
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 150
+        width: 66
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_9
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 72
+        width: 68
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 72
+        width: 73
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_11
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 76
+        width: 72
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 3
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_13
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_14
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bolas de Fogo_15
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
