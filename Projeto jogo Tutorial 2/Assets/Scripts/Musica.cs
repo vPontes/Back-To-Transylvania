@@ -16,7 +16,7 @@ public class Musica : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D colisor) {
 		if (colisor.gameObject.tag == "Player") {
 						musicaOn = true;
-				}
+				}	
 
 	}
 	

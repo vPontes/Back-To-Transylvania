@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Player : MonoBehaviour {
-	
+
 	public float velocidade;
 	public float forcaPulo;
 	private bool estaNoChao;
@@ -12,25 +12,73 @@ public class Player : MonoBehaviour {
 	private bool attack;
 	public GameObject vida;
 	public int maxVida;
-	private int vidaAtual;
+	public int vidaAtual;
+	public int tempoSpeed;
+	public int contadorQueda;
+	public int contadorQuedaAuxiliar = 1;
 
 	// Use this for initialization
 	void Start () {
 		animator = spritePlayer.GetComponent<Animator>();
-
+		contadorQueda = 0;
 		//Vida
-		vidaAtual = maxVida;
+		vidaAtual = 0;
 		vida.guiText.color = new Vector4(0.25f, 0.5f, 0.25f, 1f);
 
 		//Agora se eu quisesse um verde normal, poderia usar: vida.guiText.color = Color.green;
-
-		vida.guiText.text = "HP: " + vidaAtual + "/" + maxVida;
+		
+		//vida.guiText.text = "Pontos: " + vidaAtual + "/ Mortes: " + contadorQueda;
+		vida.guiText.text = "Pontos: " + vidaAtual;
 
 	}
+
 	
 	// Update is called once per frame
 	void Update () {
+
+		if (velocidade <= 10 && velocidade != 3) {
+			tempoSpeed --;		
+		}
+		if (tempoSpeed == 0) {
+			velocidade = 3;		
+		}
 		Movimentacao();
+	}
+
+	public void QuedaCastlevania(){
+		contadorQueda++;
+		transform.position = new Vector3 (-4, 2);
+	}
+
+	public void QuedaMario(){
+		contadorQueda ++;
+		transform.position = new Vector3 (3, -70);
+	}
+	
+	public void teletransporte0(){
+		//Application.LoadLevel(Application.loadedLevel);
+		contadorQueda = 0;
+		transform.position = new Vector3 (-4, 2);
+	}
+
+	public void teletransporte1(){	
+		contadorQueda = 0;
+		transform.position = new Vector3 (3, -70);
+	}
+	
+
+	public void teletransporte2(){
+		contadorQueda = 0;
+		transform.position = new Vector3 (5, -190);
+	}
+
+
+
+	public void SpeedUp(){
+		tempoSpeed = 100;
+			velocidade = 10;
+
+		
 	}
 
 
@@ -38,30 +86,32 @@ public class Player : MonoBehaviour {
 		vidaAtual -= dano;
 		
 		if (vidaAtual <= 0) {
-
-			Application.LoadLevel(Application.loadedLevel);
+			vidaAtual = 0;
+			//Application.LoadLevel(Application.loadedLevel);
 		} 
 		
 		if ((vidaAtual * 100 / maxVida) < 30) {
 			vida.guiText.color = Color.red;
 		}
 		
-		vida.guiText.text = "HP: " + vidaAtual + "/" + maxVida;
-	}
+		vida.guiText.text = "Pontos: " + vidaAtual;
+	}	//"HP: " + vidaAtual + "/" + maxVida;
 
 				
 	public void RecuperaVida(int recupera) {
 		vidaAtual += recupera;
 		
-		if (vidaAtual > maxVida) {
-			vidaAtual = maxVida;
-		}
+		//if (vidaAtual > maxVida) {
+		//	vidaAtual = maxVida;
+		//}
 		
 		if ((vidaAtual * 100 / maxVida) >= 30) {
 			vida.guiText.color = new Vector4(0.25f, 0.5f, 0.25f, 1f);
 		}
 		
-		vida.guiText.text = "HP: " + vidaAtual + "/" + maxVida;
+		
+		vida.guiText.text = "Pontos: " + vidaAtual;
+		//vida.guiText.text = "Pontos: " + vidaAtual;
 	}
 
 	
@@ -90,4 +140,8 @@ public class Player : MonoBehaviour {
 			rigidbody2D.AddForce(transform.up * forcaPulo);
 		}
 	}
+
+
 }
+	
+

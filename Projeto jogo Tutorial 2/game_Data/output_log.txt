@@ -1,0 +1,31 @@
+Initialize engine version: 4.6.1f1 (d1db7a1b5196)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 8670M (ID=0x6660)
+    Vendor:   ATI
+    VRAM:     2036 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Victor\Desktop\Jogo 4.6\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Victor\Desktop\Jogo 4.6\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Victor\Desktop\Jogo 4.6\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Victor\Desktop\Jogo 4.6\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Victor\Desktop\Jogo 4.6\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Victor\Desktop\Jogo 4.6\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.049 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Victor\Desktop\Jogo 4.6\game_Data\Managed\System.Core.dll (this message is harmless)
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1788)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1788)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1788)
+

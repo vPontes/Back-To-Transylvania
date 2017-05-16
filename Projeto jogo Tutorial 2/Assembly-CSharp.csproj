@@ -48,16 +48,22 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BoladeFogo.cs" />
      <Compile Include="Assets\Scripts\Camera.cs" />
+     <Compile Include="Assets\Scripts\Cristal.cs" />
      <Compile Include="Assets\Scripts\Esqueleto.cs" />
      <Compile Include="Assets\Scripts\ItemDeVida.cs" />
      <Compile Include="Assets\Scripts\Musica.cs" />
-     <Compile Include="Assets\Scripts\PlatafomraFlutuante_Cai.cs" />
-     <Compile Include="Assets\Scripts\PlataformaFlutuante_Acompanha.cs" />
-     <Compile Include="Assets\Scripts\PlataformaFlutuante_NaoAcompanha - Copia.cs" />
+     <Compile Include="Assets\Scripts\Plataforma Voadora\Cai_Plataforma.cs" />
+     <Compile Include="Assets\Scripts\Plataforma Voadora\Horizontal_Plataforma.cs" />
+     <Compile Include="Assets\Scripts\Plataforma Voadora\NaoAcompanha_Plataforma.cs" />
+     <Compile Include="Assets\Scripts\Plataforma Voadora\Vertical_Plataforma.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Pulador.cs" />
-     <Compile Include="Assets\Scripts\Queda.cs" />
+     <Compile Include="Assets\Scripts\QuedaCastlevania.cs" />
+     <Compile Include="Assets\Scripts\QuedaMario.cs" />
      <Compile Include="Assets\Scripts\RespawnObjeto.cs" />
+     <Compile Include="Assets\Scripts\SpeedUp.cs" />
+     <Compile Include="Assets\Scripts\TeleTransporte2.cs" />
+     <Compile Include="Assets\Scripts\TeleTrasnporte.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
